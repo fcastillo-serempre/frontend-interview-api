@@ -43,6 +43,6 @@ module.exports = () => {
   return {
     headers,
     redirect,
-    // rewrites,
+    rewrites,
   };
 };
