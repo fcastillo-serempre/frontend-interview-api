@@ -30,15 +30,15 @@ module.exports = () => {
     ];
   };
 
-  const rewrites = () => {
-    return [
-      {
-        source: "/:path*",
-        destination: "https://frontend-interview-api.vercel.app/api/:path*",
-        permanet: true,
-      },
-    ];
-  };
+  // const rewrites = () => {
+  //   return [
+  //     {
+  //       source: "/:path*",
+  //       destination: "https://frontend-interview-api.vercel.app/api/:path*",
+  //       permanet: true,
+  //     },
+  //   ];
+  // };
 
   return {
     headers,
